@@ -120,7 +120,7 @@ public class EventVariable implements Serializable {
             sb.append(", origintype: ").append(origintype);
         }
         if (invokeid != null) {
-            sb.append(", invokeid: ").append(invokeid);
+            sb.append(", **invokeid: ").append(invokeid);
         }
         sb.append(")");
         return sb.toString();
